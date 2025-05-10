@@ -2,10 +2,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Felipa&family=Jaini+Purva&display=swap");
 
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-}
 
 /* Base Styling */
 body, html {
