@@ -34,7 +34,7 @@ body, html {
 
 .page-header{
   font-family:'Felipa',cursive;
-  font-size: 2rem;
+  font-size: 32px;
   color:black;
 }
 
@@ -54,7 +54,7 @@ body, html {
 
 .time-card {
   border-radius: 25px;
-  padding: 2rem;
+  padding: 32px;
   background-image: url('../img/Trixie-Motel-main-1980x963-1.jpg');
   background-color: #E16AAD;
   background-blend-mode: screen;
@@ -74,7 +74,7 @@ p{
   font-size: 12px;
 }
 .time-title {
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 600;
   margin: 20px;
   color: #a03471;
@@ -82,13 +82,13 @@ p{
 
 .weather-subtitle {
   font-family: 'Felipa', cursive;
-  font-size: 1.5rem;
+  font-size: 24px;
   margin: 20px;
   font-weight: 500;
 }
 
 .weather-temp {
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 400;
   margin: 20px;
   color:#E16AAD;
@@ -97,19 +97,19 @@ p{
 
 /*Alarm Section*/ 
 .alarm-title {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .alarm-time {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 400;
 }
 
 .alarm-note {
   font-family: 'Felipa', cursive;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 /* Buttons */
