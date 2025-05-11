@@ -1,4 +1,4 @@
-// Counter Program
+// Counter Program - Definitely a Here Be Dragons Moment For Sure
 
 //Margarita Const
 
@@ -230,6 +230,8 @@ resetBtnLGBTQ.onclick = function(){
     count = 0;
     countLabel.textContent=count;
 }
+
+
 
 
 // References 
