@@ -232,23 +232,5 @@ resetBtnLGBTQ.onclick = function(){
 }
 
 
-//Modal Order
-  document.getElementById('order-btn').addEventListener('click', function () {
-    const orderModal = new bootstrap.Modal(document.getElementById('order-modal'));
-    orderModal.show();
-  });
-
-  document.getElementById('confirm-order-btn').addEventListener('click', function () {
-    window.location.href = "index.html"; 
-  });
-
-
-
 // References 
-// https://stackoverflow.com/questions/22402777/html-javascript-button-click-counter
 // https://www.youtube.com/watch?v=uSJXZ3LkABE
-// https://groups.google.com/g/androidscript/c/PqD0PwOEfzY?pli=1
-// https://getbootstrap.com/docs/4.0/components/modal/
-//https://www.youtube.com/watch?v=tt5uUMQgzl0
-//https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage/40769912
-//https://stackoverflow.com/questions/62827002/bootstrap-v5-manually-call-a-modal-mymodal-show-not-working-vanilla-javascrip
