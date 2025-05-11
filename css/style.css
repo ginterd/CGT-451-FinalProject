@@ -1,6 +1,5 @@
-/* Import Reset and Fonts */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Felipa&family=Jaini+Purva&display=swap");
+/*Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Felipa&display=swap');
 
 
 /* Base Styling */
@@ -195,6 +194,6 @@ p{
 
 
 /*References
-https://www.w3schools.com/css/css3_animations.asp
+https://fonts.google.com/selection/embed
 https://stackoverflow.com/questions/56424105/how-can-i-change-the-bootstrap-4-range-slider-colors
 https://stackoverflow.com/questions/56843685/how-can-i-style-radio-buttons-with-different-colors
