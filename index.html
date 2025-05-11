@@ -61,7 +61,7 @@
 
           <!-- Buttons -->
           <div class="d-flex justify-content-around mt-4">
-            <button class="btn btn-outline-pink" id="settings-btn">Settings</button>
+            <button class="btn btn-outline-pink" data-bs-toggle="modal" data-bs-target="#settings-modal">Settings</button>
             <a href="movies.html"><button class="btn btn-outline-pink">Movies</button></a>
             <a href="games.html"><button class="btn btn-outline-pink">Games</button></a>
           </div>
@@ -85,18 +85,18 @@
   </div>
 
 <!-- Settings Modal -->
-<div class="modal fade" id="settings-modal">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content text-center">
+<div class="modal fade" id="settings-modal" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title w-100" style="color:#e16aad;">This is a prototype.</h5>
+        <h1 class="modal-title fs-5" id="modal-label">Working Final Project</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body" style="color:black;">
-        All content within this webpage will not track your data, as this website acts as a working prototype. This final project was coded entirely with Bootstrap and is being hosted by Github!
+      <div class="modal-body">
+        <p>This is a working final project for: CGT 451 S25.</p>
       </div>
-      <div class="modal-footer justify-content-center">
-        <!-- Ensure the id is consistent with JS -->
-        <button type="button" class="btn btn-outline-pink" id="confirm-settings-btn">Ok!</button>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-pink" data-bs-dismiss="modal">Okay!</button>
       </div>
     </div>
   </div>
@@ -105,20 +105,12 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!--Custom JS that wouldn't work in the seperate js file ;w;. Here be dragons. -->
-  <script>
-     const settingsBtn = document.getElementById('settings-btn');
-const settingsModal = new bootstrap.Modal(document.getElementById('settings-modal'));
-
-settingsBtn.addEventListener('click', () => {
-  settingsModal.show();
-});
-
-document.getElementById('confirm-settings-btn').addEventListener('click', () => {
-  settingsModal.hide();
-});
-  </script>
-
+  <!--Custom JS -->
+  <script src="js/script.js"></script>
 
 </body>
 </html>
+
+<!--References
+https://getbootstrap.com/docs/4.4/utilities/sizing/
+https://getbootstrap.com/docs/5.3/components/modal/-->

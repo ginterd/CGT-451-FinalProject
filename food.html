@@ -37,8 +37,8 @@
 
       <!-- Shopping Bag Icon with Counter -->
       <div class="text-end mb-3 position-relative">
-  <a id="order-btn" role="button" data-bs-toggle="modal" data-bs-target="#orderModal" style="text-decoration: none;">
-    <i class="bi bi-bag-fill" style="font-size: 16px; color: #e16aad;"></i>
+  <a id="order-btn" role="button" data-bs-toggle="modal" data-bs-target="#order-modal" style="text-decoration: none;">
+    <i class="bi bi-bag-fill" style="font-size: 40px; color: #e16aad;"></i>
   </a>
   <label id="countLabel" class="badge bg-danger position-absolute bottom-0 start-100 translate-middle">0</label>
 </div>
@@ -202,22 +202,23 @@
   </div>
 
   <!-- Order Modal -->
-  <div class="modal fade" id="order-modal">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content text-center">
-        <div class="modal-header">
-          <h5 class="modal-title w-100" style="color:#e16aad;">Ready to Order?</h5>
-        </div>
-        <div class="modal-body" style="color:black;">
-          Are you ready to place your order?
-        </div>
-        <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No.</button>
-          <button type="button" class="btn btn-outline-pink" id="confirm-order-btn">Yes!</button>
-        </div>
+  <div class="modal fade" id="order-modal" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal-label">Working Final Project</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Order now?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Not yet...</button>
+        <a href="index.html"><button type="button" class="btn btn-outline-pink" data-bs-dismiss="modal">Yes!</button></a>
       </div>
     </div>
   </div>
+</div>
 
 
   
@@ -227,6 +228,7 @@
 
   <!-- Custom JavaScript -->
   <script src="js/script.js"></script>
+  
 
 </body>
 </html>
